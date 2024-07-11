@@ -20,11 +20,11 @@ const swaggerOptions = {
       version: "0.0.1",
       description: "A simple express API with swagger",
     },
-    host: "rahmahsaif-app-9ed0f6bb8452.herokuapp.com",
+    host: "rahmahsaif-api-3d2345e25339.herokuapp.com",
     basePath: "/",
     schemas: ["https"],
   },
-  servers: [{ url: `https://rahmahsaif-app-9ed0f6bb8452.herokuapp.com/` }],
+  servers: [{ url: `https://rahmahsaif-api-3d2345e25339.herokuapp.com/` }],
   apis: ["./server.js"],
 };
 //=============================================================
@@ -446,6 +446,6 @@ app.get("/api/category/:id", async (req, res) => {
 //======================================================================
 
 app.listen(port, () => {
-  console.log(`Server is Running on https://rahmahsaif-app-9ed0f6bb8452.herokuapp.com/`);
-  console.log(`Swagger UI is available on https://rahmahsaif-app-9ed0f6bb8452.herokuapp.com/api-ui`);
+  console.log(`Server is Running on https://rahmahsaif-api-3d2345e25339.herokuapp.com/`);
+  console.log(`Swagger UI is available on https://rahmahsaif-api-3d2345e25339.herokuapp.com/api-ui/`);
 });
